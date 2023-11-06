@@ -1,0 +1,25 @@
+body{
+  background: beige;
+  text-align: center;
+  margin: 0px;
+}
+
+.content{
+  background: blue;
+}
+.userData{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.fotoPerfil{
+  border-radius: 360px;
+  width: 70px;
+  height: 70px;
+}
+.userName{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}

@@ -1,0 +1,165 @@
+
+
+/* Style para acesso pelo celular*/
+
+@media (max-width: 680px) {
+  .aviso {
+    display: none;
+    height: 30px;
+    background: red;
+    padding: 20px 10px;
+    font-weight: bold;
+    color: white;
+  }
+
+  body {
+    
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  body2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  button {
+    width: 120px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+  }
+
+  .top {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search {
+    padding: 2px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(226, 216, 216, 0.342);
+    border-radius: 15px;
+  }
+
+  .btnSearch {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+  }
+
+  #inputSearch {
+    border-radius: 15px;
+    padding: 5px 10px;
+    background: transparent;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: 100%;
+    color: white;
+  }
+
+  .inputSearch:focus,
+  input:focus,
+  select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+
+  .bannerPromo {
+    width: 90%;
+    background: rgb(71, 172, 71);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .promo1 {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+
+  }
+
+  .bannerPratoRecomendado2 {
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(201, 182, 182, 0.671);
+    border-radius: 8px;
+    width: 90%;
+  }
+
+  .bannerPratoRecomendado {
+    padding: 15px;
+    display: flex;
+  }
+
+  .dadosPrato {
+    width: 60%;
+  }
+
+  .imgPrato {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+  .topSemana {
+    background: yellow;
+    width: 100px;
+  }
+
+}
+
+.content{
+  padding-left: 10px;
+}
+
+/* BLOQUEIA O SITE PARA ACESSO EM DESKTOP */
+@media (min-width: 641px) {
+  body2 {
+    display: none;
+  }
+
+  .aviso {
+    height: 30px;
+    padding: 20px 10px;
+    font-weight: bold;
+    color: white;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: red;
+  }
+
+}
